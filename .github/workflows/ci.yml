@@ -20,7 +20,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-     - name: Compile Java
+      - name: Compile Java
         run: javac sum.java
 
       - name: Run Java
