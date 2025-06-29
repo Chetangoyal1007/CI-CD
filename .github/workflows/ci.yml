@@ -20,8 +20,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build with Maven
-        run: mvn clean install
+     - name: Compile Java
+        run: javac sum.java
 
-      - name: Run Tests
-        run: mvn test
+      - name: Run Java
+        run: java sum
